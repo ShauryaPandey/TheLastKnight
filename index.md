@@ -4,8 +4,12 @@ I am updating the codebase here on github as I procceed further with the game.
 
  
 ## Screenshots
+![picture](Screenshots/ss1.png)
+![picture](Screenshots/ss2.png)
+![picture](Screenshots/ss3.png)
+
 
 ## Credits
--Synty Assets packs
--Gamedev.tv 
--Gamedev community on discord
+- Synty Assets packs
+- Gamedev.tv 
+- Gamedev community on discord
