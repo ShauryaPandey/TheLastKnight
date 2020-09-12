@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface IAction 
+namespace RPG.Core
 {
-    void Cancel();
+    public interface IAction
+    {
+        void Cancel();
+    }
 }

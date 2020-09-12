@@ -14,6 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moved: {fileID: 8359888595173027304}
   fight: {fileID: 6462659625843045917}
+--- !u!136 &5083834256541363128
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5918212744539111738}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.93, z: 0}
 --- !u!1001 &8308605477067784477
 PrefabInstance:
   m_ObjectHideFlags: 0
