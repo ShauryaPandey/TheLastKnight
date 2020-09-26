@@ -5,6 +5,7 @@ using RPG.Movement;
 using RPG.Core;
 using UnityEngine.AI;
 
+
 namespace RPG.Combat
 {
     public class Fighter : MonoBehaviour,IAction

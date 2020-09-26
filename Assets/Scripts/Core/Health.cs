@@ -7,7 +7,7 @@ namespace RPG.Core
 {
     public class Health : MonoBehaviour
     {
-        // Start is called before the first frame update
+        
         [SerializeField]
         public float health = 100f;
         bool dead = false;
