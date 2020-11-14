@@ -1051,6 +1051,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.92
       objectReference: {fileID: 0}
+    - target: {fileID: 3681893900307156558, guid: 3a3964492342a2d47837f89f152e4034,
+        type: 3}
+      propertyPath: uniqueIdentifier
+      value: a21e6cce-8fa3-4136-9f4b-d326bbe5d48b
+      objectReference: {fileID: 0}
+    - target: {fileID: 3681893901438207878, guid: 3a3964492342a2d47837f89f152e4034,
+        type: 3}
+      propertyPath: uniqueIdentifier
+      value: a0732023-01c5-4131-8978-53cdfcb1353d
+      objectReference: {fileID: 0}
+    - target: {fileID: 3681893901441543849, guid: 3a3964492342a2d47837f89f152e4034,
+        type: 3}
+      propertyPath: uniqueIdentifier
+      value: b9e9344b-0cd2-4765-924b-06af4743e36f
+      objectReference: {fileID: 0}
     - target: {fileID: 4397374295283925002, guid: 3a3964492342a2d47837f89f152e4034,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -1180,6 +1195,7 @@ GameObject:
   - component: {fileID: 941684332}
   - component: {fileID: 941684334}
   - component: {fileID: 941684335}
+  - component: {fileID: 941684336}
   m_Layer: 2
   m_Name: Intro Sequence
   m_TagString: Untagged
@@ -1298,6 +1314,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c51b7a549df9cc498bbead7f1dbaf9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &941684336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 941684328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ea9374b509b70f4bba37e4a2ca8cf00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uniqueIdentifier: b30f5ff7-0cf2-4bc1-ae27-a520d0dc31e3
 --- !u!1 &952755572
 GameObject:
   m_ObjectHideFlags: 0
@@ -3670,6 +3699,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: -64.92125
+      objectReference: {fileID: 0}
+    - target: {fileID: 261949966858392328, guid: ee5d0c686faafc946945bbf265c7f600,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 55.960037
+      objectReference: {fileID: 0}
+    - target: {fileID: 261949966858392328, guid: ee5d0c686faafc946945bbf265c7f600,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.0435638
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ee5d0c686faafc946945bbf265c7f600, type: 3}

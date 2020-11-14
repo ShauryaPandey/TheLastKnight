@@ -1,19 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &114713539537426340
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5918212744539111738}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cc970cb3e310cd4ca52c43410a31752, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moved: {fileID: 8359888595173027304}
-  fight: {fileID: 6462659625843045917}
 --- !u!136 &5083834256541363128
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -28,6 +14,20 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0.93, z: 0}
+--- !u!114 &114713539537426340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5918212744539111738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cc970cb3e310cd4ca52c43410a31752, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moved: {fileID: 8359888595173027304}
+  fight: {fileID: 6462659625843045917}
 --- !u!1001 &8308605477067784477
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -116,6 +116,11 @@ PrefabInstance:
         type: 3}
       propertyPath: weaponDamage
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7287846520497464479, guid: 6079ad418cd108944829eae43dbaf759,
+        type: 3}
+      propertyPath: uniqueIdentifier
+      value: player
       objectReference: {fileID: 0}
     - target: {fileID: 7727486111143439067, guid: 6079ad418cd108944829eae43dbaf759,
         type: 3}

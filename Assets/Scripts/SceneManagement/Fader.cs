@@ -5,13 +5,10 @@ using UnityEngine;
 namespace RPG.SceneManagment { 
 public class Fader : MonoBehaviour
 {
-                          
- [SerializeField] float time = 5f;
  CanvasGroup canvasGroup;
     void Start()
     {
-            canvasGroup = GetComponent<CanvasGroup>();
-          
+     canvasGroup = GetComponent<CanvasGroup>();   
     }
        public IEnumerator FadeOut(float time) {
             var deltaAlpha = Time.deltaTime / time;
@@ -31,6 +28,13 @@ public class Fader : MonoBehaviour
                 yield return null;
 
             }
+        }
+        public void FadeInImmediate() {
+            canvasGroup.alpha = 0;
+        }
+        public void FadeOutImmediate()
+        {
+            canvasGroup.alpha = 1;
         }
     }
 }
